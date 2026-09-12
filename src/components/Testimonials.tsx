@@ -20,7 +20,7 @@ export function Testimonials() {
             className="m-0 flex flex-col gap-4.5 rounded border border-dashed border-border-dashed bg-ivory p-[clamp(22px,3vw,30px)]"
           >
             <span className="text-[12px] font-semibold tracking-[1.4px] text-muted-soft uppercase">
-              Depoimento {t.n} · a preencher
+              Depoimento {t.n}
             </span>
             <blockquote className="font-display text-[20px] leading-[1.5] text-body italic">
               &ldquo;{t.placeholder}&rdquo;
