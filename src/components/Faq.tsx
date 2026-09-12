@@ -20,8 +20,8 @@ export function Faq() {
           As dúvidas que toda família tem
         </h2>
         <p className="mb-[clamp(28px,4vw,42px)] max-w-[58ch] text-[18.5px] text-body-soft">
-          Respostas diretas, sem letras miúdas. Se ficar qualquer dúvida,
-          fale com a gente pelo WhatsApp.
+          Respostas diretas, sem letras miúdas. Se ficar qualquer dúvida, fale
+          com a gente pelo WhatsApp.
         </p>
         <div className="border-t border-border">
           {duvidas.map((d, i) => {
@@ -51,14 +51,6 @@ export function Faq() {
             );
           })}
         </div>
-        <p className="mt-[26px] rounded border border-dashed border-border-dashed bg-ivory px-4 py-3.5 text-[15.5px] text-muted">
-          <strong className="font-semibold text-body-soft">
-            Nota para preenchimento:
-          </strong>{" "}
-          os trechos entre colchetes devem ser substituídos pelas informações
-          reais da residência (equipe, horários, valores e documentação).
-          Nada foi inventado.
-        </p>
       </div>
     </section>
   );

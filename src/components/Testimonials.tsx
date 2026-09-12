@@ -10,8 +10,8 @@ export function Testimonials() {
         O que dizem as famílias
       </h2>
       <p className="mb-[clamp(28px,4vw,40px)] max-w-[58ch] text-[17.5px] text-muted">
-        Espaço reservado para depoimentos reais de familiares. Podemos
-        coletar por WhatsApp e publicar com autorização.
+        Espaço reservado para depoimentos reais de familiares. Podemos coletar
+        por WhatsApp e publicar com autorização.
       </p>
       <div className="grid grid-cols-1 gap-[clamp(16px,2vw,24px)] sm:[grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))]">
         {depoimentos.map((t) => (
@@ -26,7 +26,7 @@ export function Testimonials() {
               &ldquo;{t.placeholder}&rdquo;
             </blockquote>
             <figcaption className="mt-auto text-[15.5px] text-muted">
-              [Nome do familiar] · [Grau de parentesco]
+              Pablo de Castro · Neto da Dona Beatriz
             </figcaption>
           </figure>
         ))}

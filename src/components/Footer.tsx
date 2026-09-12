@@ -61,18 +61,18 @@ export function Footer() {
               </TrackedLink>
             </p>
           </div>
-          <div className="min-w-0">
-            <h3 className="mb-4 text-[12.5px] font-semibold tracking-[1.6px] text-ivory uppercase">
-              Atendimento
-            </h3>
-            <p className="text-[16.5px] leading-[1.8]">
-              [Horário de atendimento]
-              <br />
-              [Horário de visitas]
-              <br />
-              Emergências: [informação]
-            </p>
-          </div>
+          {/* <div className="min-w-0"> */}
+          {/*   <h3 className="mb-4 text-[12.5px] font-semibold tracking-[1.6px] text-ivory uppercase"> */}
+          {/*     Atendimento */}
+          {/*   </h3> */}
+          {/*   <p className="text-[16.5px] leading-[1.8]"> */}
+          {/*     [Horário de atendimento] */}
+          {/*     <br /> */}
+          {/*     [Horário de visitas] */}
+          {/*     <br /> */}
+          {/*     Emergências: [informação] */}
+          {/*   </p> */}
+          {/* </div> */}
           <div className="min-w-0">
             <h3 className="mb-4 text-[12.5px] font-semibold tracking-[1.6px] text-ivory uppercase">
               Navegação

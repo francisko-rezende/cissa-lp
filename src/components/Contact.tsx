@@ -25,8 +25,8 @@ export function Contact() {
           </h2>
           <p className="mb-[26px] max-w-[50ch] text-[18.5px] leading-[1.7] text-body">
             Uma rua residencial e tranquila, de fácil acesso para a família
-            visitar e perto de comércio e serviços do bairro. Estacionamento
-            na rua, em frente à casa.
+            visitar e perto de comércio e serviços do bairro. Estacionamento na
+            rua, em frente à casa.
           </p>
           <dl className="mb-[30px] grid gap-4.5">
             <div>
@@ -61,7 +61,7 @@ export function Contact() {
                 Visitas
               </dt>
               <dd className="m-0 text-[18.5px] text-body-soft">
-                [Horário de visitas] — combine antes pelo WhatsApp
+                Combine antes pelo WhatsApp
               </dd>
             </div>
           </dl>
