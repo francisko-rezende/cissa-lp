@@ -94,10 +94,7 @@ export function Footer() {
           </div>
         </div>
         <div className="flex flex-wrap justify-between gap-3.5 pt-6 text-[14.5px] text-ivory/60">
-          <span>
-            © 2026 Lar de Idosos Vovó Nice · [Razão social] · CNPJ [número]
-          </span>
-          <span>Alvará e licenças: [informação a preencher]</span>
+          <span>© 2026 Lar de Idosos Vovó Nice · Hercília Freitas</span>
         </div>
       </div>
     </footer>
