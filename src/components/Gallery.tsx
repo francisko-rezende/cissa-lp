@@ -2,12 +2,14 @@
 
 import Image from "next/image";
 import { useCallback, useRef } from "react";
+import { track } from "@vercel/analytics";
 import { fotos } from "@/lib/content";
 import { ChevronLeftIcon, ChevronRightIcon } from "@/components/icons";
 
 export function Gallery() {
   const trackRef = useRef<HTMLDivElement>(null);
   const rafRef = useRef<number | null>(null);
+  const hasTrackedInteractionRef = useRef(false);
 
   const glide = useCallback((el: HTMLElement, to: number) => {
     if (rafRef.current) cancelAnimationFrame(rafRef.current);
@@ -37,6 +39,10 @@ export function Gallery() {
 
   const scrollByDir = useCallback(
     (dir: number) => {
+      if (!hasTrackedInteractionRef.current) {
+        hasTrackedInteractionRef.current = true;
+        track("gallery_interaction");
+      }
       const el = trackRef.current;
       if (!el) return;
       const figs = Array.from(el.querySelectorAll<HTMLElement>("figure"));

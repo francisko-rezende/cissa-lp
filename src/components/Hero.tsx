@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { WhatsAppIcon } from "@/components/icons";
+import { TrackedLink } from "@/components/TrackedLink";
 import { PHONE_DISPLAY, PHONE_TEL, waContato } from "@/lib/whatsapp";
 
 export function Hero() {
@@ -27,7 +28,9 @@ export function Hero() {
             assistido no dia a dia.
           </p>
           <div className="mb-[30px] flex flex-wrap gap-3.5">
-            <a
+            <TrackedLink
+              event="whatsapp_click"
+              location="hero"
               href={waContato}
               target="_blank"
               rel="noopener noreferrer"
@@ -35,7 +38,7 @@ export function Hero() {
             >
               <WhatsAppIcon className="h-[21px] w-[21px]" />
               Fale conosco pelo WhatsApp
-            </a>
+            </TrackedLink>
             <a
               href="#estrutura"
               className="inline-flex min-h-[54px] items-center gap-2 rounded-md border-[1.5px] border-border-strong px-6 py-4 text-[17.5px] font-semibold text-ink no-underline transition-colors hover:border-ink hover:bg-sand"
@@ -45,12 +48,14 @@ export function Hero() {
           </div>
           <p className="text-[16px] text-muted">
             Atendimento por telefone e WhatsApp:{" "}
-            <a
+            <TrackedLink
+              event="phone_click"
+              location="hero"
               href={`tel:${PHONE_TEL}`}
               className="border-b border-sage font-semibold text-ink no-underline"
             >
               {PHONE_DISPLAY}
-            </a>
+            </TrackedLink>
           </p>
         </div>
         <div className="relative min-w-0">

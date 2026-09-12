@@ -1,9 +1,12 @@
 import { WhatsAppIcon } from "@/components/icons";
+import { TrackedLink } from "@/components/TrackedLink";
 import { waContato } from "@/lib/whatsapp";
 
 export function WhatsAppFab() {
   return (
-    <a
+    <TrackedLink
+      event="whatsapp_click"
+      location="floating"
       href={waContato}
       target="_blank"
       rel="noopener noreferrer"
@@ -12,6 +15,6 @@ export function WhatsAppFab() {
     >
       <WhatsAppIcon className="h-6 w-6" />
       <span>Fale conosco</span>
-    </a>
+    </TrackedLink>
   );
 }

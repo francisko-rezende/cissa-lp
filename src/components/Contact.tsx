@@ -1,4 +1,5 @@
 import { PinIcon } from "@/components/icons";
+import { TrackedLink } from "@/components/TrackedLink";
 import { PHONE_DISPLAY, PHONE_TEL, waVisita } from "@/lib/whatsapp";
 
 const MAPS_DIRECTIONS =
@@ -45,12 +46,14 @@ export function Contact() {
                 Telefone e WhatsApp
               </dt>
               <dd className="m-0 text-[18.5px] text-ink">
-                <a
+                <TrackedLink
+                  event="phone_click"
+                  location="contact"
                   href={`tel:${PHONE_TEL}`}
                   className="border-b border-sage text-ink no-underline"
                 >
                   {PHONE_DISPLAY}
-                </a>
+                </TrackedLink>
               </dd>
             </div>
             <div>
@@ -63,7 +66,9 @@ export function Contact() {
             </div>
           </dl>
           <div className="flex flex-wrap gap-3">
-            <a
+            <TrackedLink
+              event="directions_click"
+              location="contact"
               href={MAPS_DIRECTIONS}
               target="_blank"
               rel="noopener noreferrer"
@@ -71,15 +76,17 @@ export function Contact() {
             >
               <PinIcon />
               Como chegar
-            </a>
-            <a
+            </TrackedLink>
+            <TrackedLink
+              event="whatsapp_click"
+              location="contact"
               href={waVisita}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex min-h-[52px] items-center gap-2.5 rounded-md border-[1.5px] border-[#A9C3B4] px-[22px] py-[15px] text-[17px] font-semibold text-accent no-underline transition-colors hover:border-accent hover:bg-[#E3EDE7]"
             >
               Agendar uma visita
-            </a>
+            </TrackedLink>
           </div>
         </div>
         <div className="min-w-0">

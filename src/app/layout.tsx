@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Newsreader, Source_Sans_3 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const newsreader = Newsreader({
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="bg-ivory text-ink font-body text-[18px] leading-[1.6] antialiased [text-wrap:pretty]">
         {children}
+        <Analytics />
       </body>
     </html>
   );

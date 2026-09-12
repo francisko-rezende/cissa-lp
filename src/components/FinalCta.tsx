@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { WhatsAppIcon } from "@/components/icons";
+import { TrackedLink } from "@/components/TrackedLink";
 import { PHONE_DISPLAY, PHONE_TEL, waContato } from "@/lib/whatsapp";
 
 export function FinalCta() {
@@ -22,7 +23,9 @@ export function FinalCta() {
           paciência, no seu tempo.
         </p>
         <div className="flex flex-wrap justify-center gap-3.5">
-          <a
+          <TrackedLink
+            event="whatsapp_click"
+            location="final_cta"
             href={waContato}
             target="_blank"
             rel="noopener noreferrer"
@@ -30,13 +33,15 @@ export function FinalCta() {
           >
             <WhatsAppIcon className="h-[21px] w-[21px]" />
             Fale conosco pelo WhatsApp
-          </a>
-          <a
+          </TrackedLink>
+          <TrackedLink
+            event="phone_click"
+            location="final_cta"
             href={`tel:${PHONE_TEL}`}
             className="inline-flex min-h-14 items-center gap-2.5 rounded-md border-[1.5px] border-border-strong px-[26px] py-[17px] text-[18px] font-semibold text-ink no-underline transition-colors hover:border-ink hover:bg-sand"
           >
             Ligar: {PHONE_DISPLAY}
-          </a>
+          </TrackedLink>
         </div>
       </div>
     </section>

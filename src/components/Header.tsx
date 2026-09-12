@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { WhatsAppIcon } from "@/components/icons";
+import { TrackedLink } from "@/components/TrackedLink";
 import { waContato } from "@/lib/whatsapp";
 
 const navLinks = [
@@ -50,7 +51,9 @@ export function Header() {
           ))}
         </nav>
 
-        <a
+        <TrackedLink
+          event="whatsapp_click"
+          location="header"
           href={waContato}
           target="_blank"
           rel="noopener noreferrer"
@@ -58,7 +61,7 @@ export function Header() {
         >
           <WhatsAppIcon />
           Fale conosco
-        </a>
+        </TrackedLink>
       </div>
     </header>
   );

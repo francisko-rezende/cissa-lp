@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { TrackedLink } from "@/components/TrackedLink";
 import { PHONE_DISPLAY, PHONE_TEL, waContato } from "@/lib/whatsapp";
 
 const footerNav = [
@@ -39,21 +40,25 @@ export function Footer() {
               CEP 36047-080
             </p>
             <p className="mt-3 text-[16.5px]">
-              <a
+              <TrackedLink
+                event="phone_click"
+                location="footer"
                 href={`tel:${PHONE_TEL}`}
                 className="border-b border-ivory/40 text-ivory no-underline"
               >
                 {PHONE_DISPLAY}
-              </a>
+              </TrackedLink>
               <br />
-              <a
+              <TrackedLink
+                event="whatsapp_click"
+                location="footer"
                 href={waContato}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-b border-[#A9C3B4]/50 text-[#A9C3B4] no-underline"
               >
                 WhatsApp
-              </a>
+              </TrackedLink>
             </p>
           </div>
           <div className="min-w-0">

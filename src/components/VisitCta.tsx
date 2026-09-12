@@ -1,4 +1,5 @@
 import { WhatsAppIcon } from "@/components/icons";
+import { TrackedLink } from "@/components/TrackedLink";
 import { waVisita } from "@/lib/whatsapp";
 
 export function VisitCta() {
@@ -14,7 +15,9 @@ export function VisitCta() {
             com calma, sem compromisso.
           </p>
         </div>
-        <a
+        <TrackedLink
+          event="whatsapp_click"
+          location="visit_cta"
           href={waVisita}
           target="_blank"
           rel="noopener noreferrer"
@@ -22,7 +25,7 @@ export function VisitCta() {
         >
           <WhatsAppIcon className="h-[21px] w-[21px]" />
           Agendar uma visita
-        </a>
+        </TrackedLink>
       </div>
     </section>
   );
