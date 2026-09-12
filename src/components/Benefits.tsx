@@ -11,7 +11,7 @@ export function Benefits() {
           O cuidado do dia a dia
         </h2>
         <p className="mb-[clamp(30px,4vw,48px)] max-w-[58ch] text-[18.5px] text-body-soft">
-          Coisas simples, feitas com atenção e constância — é isso que faz a
+          Coisas simples, feitas com atenção e constância. É isso que faz a
           diferença na vida de quem mora aqui.
         </p>
         <div className="flex flex-wrap gap-px border border-border bg-border">

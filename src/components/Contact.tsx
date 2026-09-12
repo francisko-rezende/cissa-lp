@@ -36,7 +36,7 @@ export function Contact() {
               <dd className="m-0 text-[18.5px] leading-[1.5] text-ink">
                 Rua Antônio de Paula Mendes, 727
                 <br />
-                Bairro Bandeirantes · Juiz de Fora — MG
+                Bairro Bandeirantes · Juiz de Fora, MG
                 <br />
                 CEP 36047-080
               </dd>

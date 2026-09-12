@@ -47,7 +47,7 @@ export const beneficios: Beneficio[] = [
     id: "convivio",
     titulo: "Convivência e atividades",
     texto:
-      "Conversa, música, jogos, café da tarde em grupo e datas comemorativas — atividades simples que dão ritmo à semana.",
+      "Conversa, música, jogos, café da tarde em grupo e datas comemorativas. São atividades simples que dão ritmo à semana.",
     Icon: ConvivioIcon,
   },
   {
@@ -92,7 +92,7 @@ export const fotos: Foto[] = [
     alt: "Mesa de refeições posta com toalha estampada e cadeiras estofadas, na copa da casa",
     titulo: "Copa e refeições",
     legenda:
-      "As refeições são feitas juntos, à mesa — não na bandeja do quarto.",
+      "As refeições são feitas juntos, à mesa, não na bandeja do quarto.",
   },
   // {
   //   src: "/fotos/copa-refeicoes.webp",

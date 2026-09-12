@@ -47,7 +47,7 @@ export function Residencia() {
           <p className="mb-[18px] max-w-[56ch] text-[19px] leading-[1.7] text-body">
             Nossa rotina é organizada, mas nunca rígida. Os moradores mantêm
             sua autonomia no que conseguem fazer sozinhos e recebem apoio no
-            que precisam — sempre com privacidade e respeito. Objetos
+            que precisam, sempre com privacidade e respeito. Objetos
             pessoais, fotos de família e lembranças são bem-vindos: o quarto
             é da pessoa, não do lar.
           </p>

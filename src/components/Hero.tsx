@@ -72,7 +72,7 @@ export function Hero() {
               />
             </div>
             <figcaption className="mt-3.5 text-[15px] text-muted italic">
-              Nossa casa, na Rua Antônio de Paula Mendes — Bairro
+              Nossa casa, na Rua Antônio de Paula Mendes, no Bairro
               Bandeirantes.
             </figcaption>
           </figure>

@@ -118,7 +118,7 @@ export function Gallery() {
         onKeyDown={onKeyDown}
         tabIndex={0}
         role="group"
-        aria-label="Galeria de fotos da residência — use as setas do teclado para navegar"
+        aria-label="Galeria de fotos da residência. Use as setas do teclado para navegar"
         className="gallery-track flex gap-[clamp(14px,2vw,24px)] overflow-x-auto px-[clamp(18px,4vw,40px)] pt-1 pb-[22px] [scroll-snap-type:x_proximity]"
       >
         {fotos.map((f) => (
