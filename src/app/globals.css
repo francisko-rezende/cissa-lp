@@ -1,26 +1,83 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-newsreader), Georgia, "Times New Roman", serif;
+  --font-body: var(--font-source-sans), -apple-system, "Helvetica Neue", Arial, sans-serif;
+
+  --color-ink: #24403f;
+  --color-petrol: #33585c;
+  --color-body: #4a5450;
+  --color-body-soft: #5a6360;
+  --color-muted: #7a8280;
+  --color-muted-soft: #8a8f8b;
+  --color-sage: #8ca38b;
+  --color-sage-light: #d8e0d3;
+  --color-beige: #e8dcc8;
+  --color-sand: #f2ede4;
+  --color-ivory: #faf7f1;
+  --color-wood: #b08256;
+  --color-accent: #1e7a5a;
+  --color-accent-hover: #17654a;
+  --color-accent-active: #125240;
+  --color-border: #dcd4c2;
+  --color-border-soft: #e4dccc;
+  --color-border-strong: #c3bca9;
+  --color-border-dashed: #c9c1ae;
+  --color-disabled-bg: #c7cfc9;
+
+  --shadow-button: 0 1px 0 rgba(36, 64, 63, 0.12);
+  --shadow-float: 0 6px 20px rgba(36, 64, 63, 0.24);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-ivory);
+  color: var(--color-ink);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-petrol);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+::selection {
+  background: var(--color-sage-light);
+}
+
+.gallery-track::-webkit-scrollbar {
+  height: 6px;
+}
+
+.gallery-track::-webkit-scrollbar-thumb {
+  background: var(--color-border-dashed);
+  border-radius: 999px;
+}
+
+.gallery-track::-webkit-scrollbar-track {
+  background: var(--color-sand);
+  border-radius: 999px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
 }
