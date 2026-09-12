@@ -14,9 +14,12 @@ export function Benefits() {
           Coisas simples, feitas com atenção e constância — é isso que faz a
           diferença na vida de quem mora aqui.
         </p>
-        <div className="grid grid-cols-1 gap-px border border-border bg-border sm:[grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))]">
+        <div className="flex flex-wrap gap-px border border-border bg-border">
           {beneficios.map(({ id, titulo, texto, Icon }) => (
-            <div key={id} className="bg-ivory p-[clamp(24px,3vw,32px)]">
+            <div
+              key={id}
+              className="min-w-[260px] flex-1 basis-[260px] bg-ivory p-[clamp(24px,3vw,32px)]"
+            >
               <Icon className="mb-4 text-petrol" />
               <h3 className="mb-[9px] font-display text-[22px] leading-[1.25] font-medium text-ink">
                 {titulo}
