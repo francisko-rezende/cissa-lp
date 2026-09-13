@@ -1,12 +1,7 @@
-"use client";
-
-import { useState } from "react";
 import { duvidas } from "@/lib/content";
 import { MinusIcon, PlusIcon } from "@/components/icons";
 
 export function Faq() {
-  const [aberta, setAberta] = useState<number | null>(null);
-
   return (
     <section
       id="cuidados"
@@ -24,32 +19,23 @@ export function Faq() {
           com a gente pelo WhatsApp.
         </p>
         <div className="border-t border-border">
-          {duvidas.map((d, i) => {
-            const isOpen = aberta === i;
-            return (
-              <div key={d.pergunta} className="border-b border-border">
-                <button
-                  type="button"
-                  onClick={() => setAberta((cur) => (cur === i ? null : i))}
-                  aria-expanded={isOpen}
-                  className="flex min-h-14 w-full items-center justify-between gap-4.5 border-0 bg-transparent px-1 py-[22px] text-left font-display text-[clamp(19px,2.2vw,23px)] leading-[1.3] text-ink transition-colors hover:text-petrol"
+          {duvidas.map((d) => (
+            <details key={d.pergunta} className="group border-b border-border">
+              <summary className="flex min-h-14 cursor-pointer list-none items-center justify-between gap-4.5 px-1 py-[22px] font-display text-[clamp(19px,2.2vw,23px)] leading-[1.3] text-ink transition-colors [&::-webkit-details-marker]:hidden hover:text-petrol">
+                {d.pergunta}
+                <span
+                  aria-hidden="true"
+                  className="grid h-[30px] w-[30px] flex-none place-items-center rounded-full border-[1.5px] border-border-strong text-petrol"
                 >
-                  {d.pergunta}
-                  <span
-                    aria-hidden="true"
-                    className="grid h-[30px] w-[30px] flex-none place-items-center rounded-full border-[1.5px] border-border-strong text-petrol"
-                  >
-                    {isOpen ? <MinusIcon /> : <PlusIcon />}
-                  </span>
-                </button>
-                {isOpen && (
-                  <div className="max-w-[64ch] px-16 pb-[26px] pl-1 text-[18px] leading-[1.7] text-body">
-                    {d.resposta}
-                  </div>
-                )}
+                  <PlusIcon className="group-open:hidden" />
+                  <MinusIcon className="hidden group-open:block" />
+                </span>
+              </summary>
+              <div className="max-w-[64ch] px-16 pb-[26px] pl-1 text-[18px] leading-[1.7] text-body">
+                {d.resposta}
               </div>
-            );
-          })}
+            </details>
+          ))}
         </div>
       </div>
     </section>

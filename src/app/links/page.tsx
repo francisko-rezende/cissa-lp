@@ -4,10 +4,36 @@ import { ArrowUpRightIcon, PinIcon, WhatsAppIcon } from "@/components/icons";
 import { TrackedLink } from "@/components/TrackedLink";
 import { PHONE_DISPLAY, PHONE_TEL, waContato } from "@/lib/whatsapp";
 
+const title = "Vovó Nice | Contato";
+const description =
+  "Cartão digital do Lar de Idosos Vovó Nice: fale pelo WhatsApp, conheça o site e veja como chegar até a casa, em Juiz de Fora, MG.";
+
 export const metadata: Metadata = {
-  title: "Vovó Nice | Contato",
-  description:
-    "Cartão digital do Lar de Idosos Vovó Nice: fale pelo WhatsApp, conheça o site e veja como chegar até a casa, em Juiz de Fora, MG.",
+  title,
+  description,
+  alternates: {
+    canonical: "/links",
+  },
+  // Digital business card meant to be reached from a bio link/QR code, not
+  // from search results — kept out of the index so it doesn't compete with
+  // the homepage for the same local-search queries.
+  robots: {
+    index: false,
+    follow: true,
+  },
+  openGraph: {
+    title,
+    description,
+    url: "/links",
+    siteName: "Lar de Idosos Vovó Nice",
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+  },
 };
 
 const MAPS_DIRECTIONS =
