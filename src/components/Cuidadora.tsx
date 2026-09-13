@@ -16,10 +16,9 @@ export function Cuidadora() {
           </h2>
           <p className="mb-[18px] max-w-[56ch] text-[19px] leading-[1.7] text-body">
             Hercília é quem responde pela casa e acompanha o dia a dia dos
-            moradores de perto. São muitos anos de experiência como cuidadora
-            de idosos, cuidando da higiene, da alimentação, da medicação e,
-            também, da conversa e da atenção que fazem cada um se sentir em
-            casa.
+            moradores de perto. São muitos anos de experiência como cuidadora de
+            idosos, cuidando da higiene, da alimentação, da medicação e, também,
+            da conversa e da atenção que fazem cada um se sentir em casa.
           </p>
           <p className="mb-[30px] max-w-[56ch] text-[19px] leading-[1.7] text-body">
             Além da experiência prática, ela está cursando o técnico de
@@ -27,8 +26,8 @@ export function Cuidadora() {
             técnica cada vez mais completa.
           </p>
           <p className="max-w-[44ch] font-display text-[22px] leading-[1.45] text-petrol italic">
-            Para Hercília, cuidar bem é tratar cada morador com o mesmo
-            carinho que ela dedicaria à própria família.
+            Para Hercília, cuidar bem é tratar com o mesmo carinho que ela
+            dedicaria à própria família.
           </p>
         </div>
         <figure className="relative m-0 min-w-0 sm:order-2">

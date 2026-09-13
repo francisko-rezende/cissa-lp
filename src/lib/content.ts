@@ -72,7 +72,7 @@ export const fotos: Foto[] = [
     alt: "Quarto com cama de solteiro coberta por colcha de crochê, cortina clara e janela com luz natural",
     titulo: "Os quartos",
     legenda:
-      "Camas individuais, roupa de cama sempre limpa e espaço para os objetos de cada morador.",
+      "Camas individuais, roupa de cama sempre limpa e espaço para os objetos pessoais do morador.",
   },
   {
     src: "/fotos/quarto-detalhe.webp",
@@ -105,7 +105,7 @@ export const fotos: Foto[] = [
     alt: "Cozinha ampla e organizada, com fogão, geladeira e bancada de apoio",
     titulo: "A cozinha",
     legenda:
-      "Comida feita na casa, todos os dias, por quem conhece o gosto de cada morador.",
+      "Comida feita na casa, todos os dias, por quem conhece o gosto de quem vai comer.",
   },
   {
     src: "/fotos/fachada.webp",
@@ -135,7 +135,7 @@ export const duvidas: Duvida[] = [
   {
     pergunta: "E a medicação e o acompanhamento de saúde?",
     resposta:
-      "A administração de medicamentos segue a prescrição do médico de cada morador, com registro e controle. Acompanhamento clínico, consultas e exames são feitos em conjunto com a família.",
+      "A administração de medicamentos segue a prescrição do médico, com registro e controle. Acompanhamento clínico, consultas e exames são feitos em conjunto com a família.",
   },
   {
     pergunta: "A alimentação é adaptada a restrições?",

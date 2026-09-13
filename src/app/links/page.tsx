@@ -47,9 +47,15 @@ export default function LinksPage() {
               className="mb-4 h-auto w-9"
             />
             <p className="mb-2 inline-flex items-center gap-2 text-[12.5px] font-semibold tracking-[2px] text-muted uppercase">
-              <span className="block h-px w-[18px] bg-sage" aria-hidden="true" />
+              <span
+                className="block h-px w-[18px] bg-sage"
+                aria-hidden="true"
+              />
               Lar de Idosos
-              <span className="block h-px w-[18px] bg-sage" aria-hidden="true" />
+              <span
+                className="block h-px w-[18px] bg-sage"
+                aria-hidden="true"
+              />
             </p>
             <h1 className="mb-2 font-display text-[clamp(32px,9vw,40px)] leading-[1.05] font-normal text-ink">
               Vovó Nice
@@ -64,12 +70,11 @@ export default function LinksPage() {
           {/* Welcome message */}
           <div className="mb-8 border-t border-border-soft pt-7 text-center">
             <p className="mb-2.5 font-display text-[21px] leading-[1.4] text-petrol italic">
-              Cuidado, conforto e acolhimento para quem sempre cuidou de
-              você.
+              Cuidado, conforto e acolhimento para quem sempre cuidou de você.
             </p>
             <p className="mx-auto max-w-[36ch] text-[15.5px] leading-[1.6] text-body-soft">
-              Uma casa de verdade em Juiz de Fora, com atenção próxima e
-              rotina tranquila para cada morador.
+              Uma casa de verdade em Juiz de Fora, com atenção próxima e rotina
+              tranquila.
             </p>
           </div>
 
@@ -106,9 +111,7 @@ export default function LinksPage() {
                   <span className="block text-[16.5px] font-semibold text-ink">
                     {l.label}
                   </span>
-                  <span className="block text-[14px] text-muted">
-                    {l.hint}
-                  </span>
+                  <span className="block text-[14px] text-muted">{l.hint}</span>
                 </span>
                 <ArrowUpRightIcon className="h-[18px] w-[18px] flex-none text-muted-soft" />
               </TrackedLink>
@@ -131,9 +134,8 @@ export default function LinksPage() {
                 Sobre a Vovó Nice
               </h2>
               <p className="text-[15px] leading-[1.6] text-body-soft">
-                Uma casa preparada para receber pessoas idosas com
-                segurança, conforto e acolhimento, com atenção ao dia a dia
-                e ao bem-estar de cada morador.
+                Uma casa preparada para receber pessoas idosas com segurança,
+                conforto e acolhimento, com atenção ao dia a dia e ao bem-estar.
               </p>
             </div>
           </div>
@@ -169,18 +171,13 @@ export default function LinksPage() {
             <p className="text-[15.5px] leading-[1.7] text-body-soft">
               Visitas: combine pelo WhatsApp
               <br />
-              <span className="text-muted italic">
-                [Horário de atendimento]
-              </span>
             </p>
           </div>
         </div>
 
         {/* Footer */}
         <div className="border-t border-border bg-sand/70 px-[clamp(22px,6vw,38px)] py-6 text-center">
-          <p className="mb-1 text-[15px] font-semibold text-ink">
-            Vovó Nice
-          </p>
+          <p className="mb-1 text-[15px] font-semibold text-ink">Vovó Nice</p>
           <p className="mb-3 text-[14px] text-muted">
             Cuidado, conforto e acolhimento.
           </p>
