@@ -4,7 +4,11 @@ import { track } from "@vercel/analytics";
 import type { ComponentPropsWithoutRef, MouseEvent } from "react";
 
 type TrackedLinkProps = ComponentPropsWithoutRef<"a"> & {
-  event: "whatsapp_click" | "phone_click" | "directions_click";
+  event:
+    | "whatsapp_click"
+    | "phone_click"
+    | "directions_click"
+    | "website_click";
   location: string;
 };
 
