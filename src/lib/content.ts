@@ -47,7 +47,7 @@ export const beneficios: Beneficio[] = [
     id: "convivio",
     titulo: "Convivência e atividades",
     texto:
-      "Conversa, música, jogos, café da tarde em grupo e datas comemorativas. São atividades simples que dão ritmo à semana.",
+      "Conversa, música, jogos, café da tarde e datas comemorativas. São atividades simples que dão ritmo à semana.",
     Icon: ConvivioIcon,
   },
   {
