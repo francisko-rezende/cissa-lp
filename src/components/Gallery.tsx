@@ -79,9 +79,9 @@ export function Gallery() {
   return (
     <section
       id="estrutura"
-      className="scroll-mt-[90px] py-[clamp(52px,8vw,96px)]"
+      className="scroll-mt-[90px] px-[clamp(18px,4vw,40px)] py-[clamp(52px,8vw,96px)]"
     >
-      <div className="mx-auto mb-[clamp(26px,3vw,40px)] flex max-w-[1200px] flex-wrap items-end justify-between gap-6 px-[clamp(18px,4vw,40px)]">
+      <div className="mx-auto mb-[clamp(26px,3vw,40px)] flex max-w-[1200px] flex-wrap items-end justify-between gap-6">
         <div className="min-w-0 flex-1 basis-[340px]">
           <p className="mb-3.5 text-[14.5px] font-semibold tracking-[1.6px] text-petrol uppercase">
             Estrutura
@@ -119,7 +119,7 @@ export function Gallery() {
         tabIndex={0}
         role="group"
         aria-label="Galeria de fotos da residência. Use as setas do teclado para navegar"
-        className="gallery-track flex gap-[clamp(14px,2vw,24px)] overflow-x-auto px-[clamp(18px,4vw,40px)] pt-1 pb-[22px] [scroll-snap-type:x_proximity]"
+        className="gallery-track mx-auto flex max-w-[1200px] gap-[clamp(14px,2vw,24px)] overflow-x-auto pt-1 pb-[22px] [scroll-snap-type:x_proximity]"
       >
         {fotos.map((f) => (
           <figure
@@ -147,7 +147,7 @@ export function Gallery() {
           </figure>
         ))}
       </div>
-      <p className="mx-auto max-w-[1200px] px-[clamp(18px,4vw,40px)] text-[15.5px] text-muted-soft">
+      <p className="mx-auto max-w-[1200px] text-[15.5px] text-muted-soft">
         Arraste para o lado, use as setas ou o teclado para ver todos os
         ambientes.
       </p>

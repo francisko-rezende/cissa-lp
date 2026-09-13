@@ -4,9 +4,9 @@ export function Residencia() {
   return (
     <section
       id="residencia"
-      className="mx-auto max-w-[1200px] scroll-mt-[90px] px-[clamp(18px,4vw,40px)] py-[clamp(52px,8vw,104px)]"
+      className="scroll-mt-[90px] px-[clamp(18px,4vw,40px)] py-[clamp(52px,8vw,104px)]"
     >
-      <div className="grid grid-cols-1 items-center gap-x-[clamp(32px,5vw,72px)] gap-y-10 sm:[grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))]">
+      <div className="mx-auto grid max-w-[1200px] grid-cols-1 items-center gap-x-[clamp(32px,5vw,72px)] gap-y-10 sm:[grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))]">
         <div className="flex min-w-0 items-start gap-4">
           <figure className="relative min-w-0 flex-1">
             <div className="relative aspect-3/4 w-full overflow-hidden rounded-sm">

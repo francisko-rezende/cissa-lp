@@ -13,8 +13,8 @@ const navLinks = [
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 border-b border-border-soft bg-ivory/94 backdrop-blur-sm">
-      <div className="mx-auto flex max-w-[1200px] flex-wrap items-center gap-x-[clamp(16px,3vw,40px)] gap-y-3 px-[clamp(18px,4vw,40px)] py-3.5">
+    <header className="sticky top-0 z-50 border-b border-border-soft bg-ivory/94 px-[clamp(18px,4vw,40px)] backdrop-blur-sm">
+      <div className="mx-auto flex max-w-[1200px] flex-wrap items-center gap-x-[clamp(16px,3vw,40px)] gap-y-3 py-3.5">
         <Link
           href="#topo"
           className="flex flex-none items-center gap-3 no-underline"

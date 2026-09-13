@@ -4,9 +4,9 @@ export function Cuidadora() {
   return (
     <section
       id="cuidadora"
-      className="mx-auto max-w-[1200px] scroll-mt-[90px] px-[clamp(18px,4vw,40px)] py-[clamp(52px,8vw,104px)]"
+      className="scroll-mt-[90px] px-[clamp(18px,4vw,40px)] py-[clamp(52px,8vw,104px)]"
     >
-      <div className="grid grid-cols-1 items-center gap-x-[clamp(32px,5vw,72px)] gap-y-10 sm:[grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))]">
+      <div className="mx-auto grid max-w-[1200px] grid-cols-1 items-center gap-x-[clamp(32px,5vw,72px)] gap-y-10 sm:[grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))]">
         <div className="min-w-0 sm:order-1">
           <p className="mb-5 text-[14.5px] font-semibold tracking-[1.6px] text-petrol uppercase">
             Quem cuida

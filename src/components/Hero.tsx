@@ -7,9 +7,9 @@ export function Hero() {
   return (
     <section
       id="topo"
-      className="mx-auto max-w-[1200px] px-[clamp(18px,4vw,40px)] py-[clamp(36px,6vw,84px)] pb-[clamp(40px,6vw,80px)]"
+      className="px-[clamp(18px,4vw,40px)] py-[clamp(36px,6vw,84px)] pb-[clamp(40px,6vw,80px)]"
     >
-      <div className="grid grid-cols-1 items-center gap-x-[clamp(28px,5vw,64px)] gap-y-10 sm:[grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))]">
+      <div className="mx-auto grid max-w-[1200px] grid-cols-1 items-center gap-x-[clamp(28px,5vw,64px)] gap-y-10 sm:[grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))]">
         <div className="min-w-0">
           <p className="mb-[22px] inline-flex items-center gap-2.5 text-[14.5px] font-semibold tracking-[1.6px] text-petrol uppercase">
             <span className="block h-px w-[26px] bg-sage" />

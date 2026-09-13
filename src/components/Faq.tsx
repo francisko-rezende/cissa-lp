@@ -12,7 +12,7 @@ export function Faq() {
       id="cuidados"
       className="scroll-mt-[90px] border-y border-border-soft bg-sand px-[clamp(18px,4vw,40px)] py-[clamp(52px,8vw,96px)]"
     >
-      <div className="mx-auto max-w-[1060px]">
+      <div className="mx-auto max-w-[1200px]">
         <p className="mb-3.5 text-[14.5px] font-semibold tracking-[1.6px] text-petrol uppercase">
           Cuidados
         </p>
