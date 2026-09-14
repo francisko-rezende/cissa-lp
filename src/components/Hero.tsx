@@ -21,7 +21,8 @@ export function Hero() {
             <em className="text-petrol">para quem sempre cuidou de você.</em>
           </h1>
           <p className="mb-8 max-w-[54ch] text-[clamp(18px,2vw,20.5px)] leading-[1.65] text-body">
-            O Lar de Idosos Vovó Nice é uma casa de verdade, preparada para
+            O Residencial Sênior Vovó Nice é uma casa de verdade, preparada
+            para
             receber pessoas idosas com atenção individualizada, rotina
             tranquila e a companhia de quem cuida de perto. Recebemos
             moradores independentes e também quem precisa de cuidado
@@ -64,7 +65,7 @@ export function Hero() {
             <div className="relative aspect-4/5 w-full overflow-hidden rounded-sm">
               <Image
                 src="/fotos/fachada.webp"
-                alt="Fachada da casa do Lar de Idosos Vovó Nice, com varanda de tijolinho e plantas na entrada"
+                alt="Fachada da casa do Residencial Sênior Vovó Nice, com varanda de tijolinho e plantas na entrada"
                 fill
                 priority
                 sizes="(min-width: 1024px) 560px, 90vw"

@@ -19,7 +19,7 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "Lar de Idosos Vovó Nice",
+    name: "Residencial Sênior Vovó Nice",
     description:
       "Casa de acolhimento para pessoas idosas em Juiz de Fora, com cuidado individualizado, rotina tranquila e a companhia de quem cuida de perto.",
     url: SITE_URL,

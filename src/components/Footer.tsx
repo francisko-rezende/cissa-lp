@@ -18,7 +18,7 @@ export function Footer() {
           <div className="min-w-0">
             <Image
               src="/logo/logo-principal-fundo-escuro.svg"
-              alt="Lar de Idosos Vovó Nice"
+              alt="Residencial Sênior Vovó Nice"
               width={220}
               height={64}
               className="mb-[18px] h-auto w-[220px] max-w-full"
@@ -94,7 +94,7 @@ export function Footer() {
           </div>
         </div>
         <div className="flex flex-wrap justify-between gap-3.5 pt-6 text-[14.5px] text-ivory/60">
-          <span>© 2026 Lar de Idosos Vovó Nice · Hercília Freitas</span>
+          <span>© 2026 Residencial Sênior Vovó Nice · Hercília Freitas</span>
         </div>
       </div>
     </footer>

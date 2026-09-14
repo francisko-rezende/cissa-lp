@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Lar de Idosos Vovó Nice — Juiz de Fora, MG";
+export const alt = "Residencial Sênior Vovó Nice — Juiz de Fora, MG";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -41,13 +41,13 @@ export default function Image() {
         </div>
         <span
           style={{
-            fontSize: 76,
+            fontSize: 62,
             fontWeight: 500,
             lineHeight: 1.1,
             color: "#24403f",
           }}
         >
-          Lar de Idosos Vovó Nice
+          Residencial Sênior Vovó Nice
         </span>
         <span
           style={{

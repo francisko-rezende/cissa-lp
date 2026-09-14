@@ -28,7 +28,7 @@ export function Header() {
           />
           <span className="flex flex-col leading-[1.05]">
             <span className="text-[9.5px] font-semibold tracking-[2.4px] text-body-soft">
-              LAR DE IDOSOS
+              RESIDENCIAL SÊNIOR
             </span>
             <span className="font-display text-[23px] tracking-[0.2px] text-ink">
               Vovó Nice

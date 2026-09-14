@@ -8,9 +8,9 @@ export function waLink(message: string) {
 }
 
 export const waContato = waLink(
-  "Olá! Encontrei o site do Lar de Idosos Vovó Nice e gostaria de mais informações."
+  "Olá! Encontrei o site do Residencial Sênior Vovó Nice e gostaria de mais informações."
 );
 
 export const waVisita = waLink(
-  "Olá! Gostaria de agendar uma visita ao Lar de Idosos Vovó Nice."
+  "Olá! Gostaria de agendar uma visita ao Residencial Sênior Vovó Nice."
 );

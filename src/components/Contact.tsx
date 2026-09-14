@@ -92,7 +92,7 @@ export function Contact() {
         <div className="min-w-0">
           <div className="overflow-hidden rounded-[3px] border border-[#D5CCB9] bg-ivory">
             <iframe
-              title="Mapa da localização do Lar de Idosos Vovó Nice"
+              title="Mapa da localização do Residencial Sênior Vovó Nice"
               src={MAPS_EMBED}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

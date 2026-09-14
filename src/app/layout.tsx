@@ -18,7 +18,7 @@ const sourceSans = Source_Sans_3({
   weight: ["300", "400", "500", "600"],
 });
 
-const title = "Lar de Idosos Vovó Nice | Juiz de Fora, MG";
+const title = "Residencial Sênior Vovó Nice | Juiz de Fora, MG";
 const description =
   "Casa de acolhimento para pessoas idosas em Juiz de Fora, com cuidado individualizado, rotina tranquila e a companhia de quem cuida de perto.";
 
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title,
     description,
     url: "/",
-    siteName: "Lar de Idosos Vovó Nice",
+    siteName: "Residencial Sênior Vovó Nice",
     locale: "pt_BR",
     type: "website",
   },

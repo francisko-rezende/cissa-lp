@@ -6,7 +6,7 @@ import { PHONE_DISPLAY, PHONE_TEL, waContato } from "@/lib/whatsapp";
 
 const title = "Vovó Nice | Contato";
 const description =
-  "Cartão digital do Lar de Idosos Vovó Nice: fale pelo WhatsApp, conheça o site e veja como chegar até a casa, em Juiz de Fora, MG.";
+  "Cartão digital do Residencial Sênior Vovó Nice: fale pelo WhatsApp, conheça o site e veja como chegar até a casa, em Juiz de Fora, MG.";
 
 export const metadata: Metadata = {
   title,
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title,
     description,
     url: "/links",
-    siteName: "Lar de Idosos Vovó Nice",
+    siteName: "Residencial Sênior Vovó Nice",
     locale: "pt_BR",
     type: "website",
   },
@@ -77,7 +77,7 @@ export default function LinksPage() {
                 className="block h-px w-[18px] bg-sage"
                 aria-hidden="true"
               />
-              Lar de Idosos
+              Residencial Sênior
               <span
                 className="block h-px w-[18px] bg-sage"
                 aria-hidden="true"
