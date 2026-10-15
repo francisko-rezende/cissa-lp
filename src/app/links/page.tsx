@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { ArrowUpRightIcon, PinIcon, WhatsAppIcon } from "@/components/icons";
 import { TrackedLink } from "@/components/TrackedLink";
-import { PHONE_DISPLAY, PHONE_TEL, waContato } from "@/lib/whatsapp";
+import { PHONE_DISPLAY, PHONE_TEL, waContato, waVisita } from "@/lib/whatsapp";
 
 const title = "Vovó Nice | Contato";
 const description =
@@ -197,8 +197,17 @@ export default function LinksPage() {
               Atendimento
             </h2>
             <p className="text-[15.5px] leading-[1.7] text-body-soft">
-              Visitas: combine pelo WhatsApp
-              <br />
+              Visitas: combine pelo{" "}
+              <TrackedLink
+                event="whatsapp_click"
+                location="links_visitas"
+                href={waVisita}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-ink underline decoration-sage transition-colors hover:text-accent hover:decoration-accent"
+              >
+                WhatsApp
+              </TrackedLink>
             </p>
           </div>
         </div>
