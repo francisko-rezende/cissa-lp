@@ -181,24 +181,16 @@ export const duvidas: Duvida[] = [
 ];
 
 export type Depoimento = {
-  n: string;
-  placeholder: string;
+  texto: string;
+  autor: string;
+  relacao: string;
 };
 
 export const depoimentos: Depoimento[] = [
   {
-    n: "1",
-    placeholder:
+    autor: "Pablo de Castro",
+    relacao: "Neto da Dona Beatriz",
+    texto:
       "Recomendo muito o trabalho da Hercília! Ela cuidou da minha avó por um período e sempre foi muito carinhosa, atenciosa e competente. É uma profissional de confiança, que realmente se preocupa com o bem-estar da pessoa que está cuidando. Recomendo de coração!",
   },
-  // {
-  //   n: "2",
-  //   placeholder:
-  //     "Espaço para o depoimento de um familiar sobre o cuidado no dia a dia e a comunicação com a equipe.",
-  // },
-  // {
-  //   n: "3",
-  //   placeholder:
-  //     "Espaço para o depoimento de um familiar sobre a tranquilidade de saber que o seu familiar está bem acompanhado.",
-  // },
 ];

@@ -5,7 +5,7 @@ import { PHONE_DISPLAY, PHONE_TEL, waContato } from "@/lib/whatsapp";
 const footerNav = [
   { href: "#residencia", label: "A Residência" },
   { href: "#estrutura", label: "Estrutura" },
-  { href: "#cuidados", label: "Cuidados" },
+  { href: "#duvidas", label: "Dúvidas" },
   { href: "#depoimentos", label: "Depoimentos" },
   { href: "#contato", label: "Localização" },
 ];

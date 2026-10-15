@@ -44,6 +44,12 @@ body {
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
 a {
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
