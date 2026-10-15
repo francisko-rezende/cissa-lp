@@ -81,11 +81,25 @@ export const fotos: Foto[] = [
     legenda: "Abajur, água por perto e as coisas de cada um ao alcance da mão.",
   },
   {
+    src: "/fotos/hercilia-moradora.webp",
+    alt: "Hercília sorrindo abraçada a uma moradora de cabelos brancos, também sorrindo",
+    titulo: "Perto de quem cuida",
+    legenda:
+      "Hercília conhece cada morador pelo nome, pelo jeito e pelas histórias.",
+  },
+  {
     src: "/fotos/sala-convivencia.webp",
     alt: "Sala de convivência com sofá de três lugares e chaise, em ambiente claro e arrumado",
     titulo: "Sala de convivência",
     legenda:
       "Onde se assiste à novela, se conversa e se recebe visita da família.",
+  },
+  {
+    src: "/fotos/fisioterapia.webp",
+    alt: "Moradora sentada no sofá fazendo exercício de fisioterapia com faixa elástica nas pernas",
+    titulo: "Fisioterapia em casa",
+    legenda:
+      "Quem já tem acompanhamento continua com ele: o fisioterapeuta do morador é bem-vindo na casa.",
   },
   {
     src: "/fotos/copa-mesa-posta.webp",
@@ -106,6 +120,13 @@ export const fotos: Foto[] = [
     titulo: "A cozinha",
     legenda:
       "Comida feita na casa, todos os dias, por quem conhece o gosto de quem vai comer.",
+  },
+  {
+    src: "/fotos/cozinha-bolo.webp",
+    alt: "Moradora sentada na cozinha mexendo massa de bolo em uma vasilha com colher de pau",
+    titulo: "Mão na massa",
+    legenda:
+      "Quem gosta de cozinhar continua ajudando: hoje tem bolo para o café da tarde.",
   },
   {
     src: "/fotos/fachada.webp",

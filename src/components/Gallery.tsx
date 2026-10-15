@@ -90,8 +90,8 @@ export function Gallery() {
             A casa por dentro
           </h2>
           <p className="max-w-[56ch] text-[18.5px] text-body-soft">
-            Fotos feitas na própria residência, sem montagem. É assim que a
-            casa é no dia a dia.
+            Fotos feitas na própria residência, sem montagem: os ambientes e a
+            rotina dos moradores, do jeito que é no dia a dia.
           </p>
         </div>
         <div className="flex flex-none gap-2.5">

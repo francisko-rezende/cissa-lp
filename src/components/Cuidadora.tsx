@@ -33,8 +33,8 @@ export function Cuidadora() {
         <figure className="relative m-0 min-w-0 sm:order-2">
           <div className="relative aspect-3/4 w-full overflow-hidden rounded-sm">
             <Image
-              src="/fotos/hercilia.jpeg"
-              alt="Hercília, responsável pelo cuidado dos moradores do Residencial Sênior Vovó Nice"
+              src="/fotos/hercilia.webp"
+              alt="Hercília de jaleco branco, sorrindo, responsável pelo cuidado dos moradores do Residencial Sênior Vovó Nice"
               fill
               sizes="(min-width: 1024px) 460px, 90vw"
               className="object-cover saturate-[.94]"

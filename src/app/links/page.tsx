@@ -148,11 +148,11 @@ export default function LinksPage() {
           <div className="mb-8 flex gap-4 border-t border-border-soft pt-7">
             <div className="relative aspect-square w-[76px] flex-none overflow-hidden rounded-md">
               <Image
-                src="/fotos/hercilia.jpeg"
+                src="/fotos/hercilia.webp"
                 alt="Hercília, responsável pelo cuidado dos moradores"
                 fill
                 sizes="76px"
-                className="object-cover saturate-[.94]"
+                className="object-cover object-[50%_12%] saturate-[.94]"
               />
             </div>
             <div className="min-w-0">
