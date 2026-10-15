@@ -4,12 +4,12 @@ import { MinusIcon, PlusIcon } from "@/components/icons";
 export function Faq() {
   return (
     <section
-      id="cuidados"
+      id="duvidas"
       className="scroll-mt-[90px] border-y border-border-soft bg-sand px-[clamp(18px,4vw,40px)] py-[clamp(52px,8vw,96px)]"
     >
       <div className="mx-auto max-w-[1200px]">
         <p className="mb-3.5 text-[14.5px] font-semibold tracking-[1.6px] text-petrol uppercase">
-          Cuidados
+          Dúvidas
         </p>
         <h2 className="mb-3.5 font-display text-[clamp(30px,4vw,46px)] leading-[1.12] font-normal text-ink">
           As dúvidas que toda família tem

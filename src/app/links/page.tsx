@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { ArrowUpRightIcon, PinIcon, WhatsAppIcon } from "@/components/icons";
 import { TrackedLink } from "@/components/TrackedLink";
-import { PHONE_DISPLAY, PHONE_TEL, waContato } from "@/lib/whatsapp";
+import { PHONE_DISPLAY, PHONE_TEL, waContato, waVisita } from "@/lib/whatsapp";
 
 const title = "Vovó Nice | Contato";
 const description =
@@ -148,20 +148,22 @@ export default function LinksPage() {
           <div className="mb-8 flex gap-4 border-t border-border-soft pt-7">
             <div className="relative aspect-square w-[76px] flex-none overflow-hidden rounded-md">
               <Image
-                src="/fotos/hercilia.jpeg"
+                src="/fotos/hercilia.webp"
                 alt="Hercília, responsável pelo cuidado dos moradores"
                 fill
                 sizes="76px"
-                className="object-cover saturate-[.94]"
+                className="object-cover object-[50%_12%] saturate-[.94]"
               />
             </div>
             <div className="min-w-0">
               <h2 className="mb-1.5 font-display text-[19px] font-medium text-ink">
-                Sobre a Vovó Nice
+                Sobre nós
               </h2>
               <p className="text-[15px] leading-[1.6] text-body-soft">
                 Uma casa preparada para receber pessoas idosas com segurança,
-                conforto e acolhimento, com atenção ao dia a dia e ao bem-estar.
+                conforto e acolhimento. À frente do cuidado está Hercília,
+                cuidadora experiente e estudante de técnico de enfermagem, que
+                acompanha de perto o dia a dia de cada morador.
               </p>
             </div>
           </div>
@@ -195,8 +197,17 @@ export default function LinksPage() {
               Atendimento
             </h2>
             <p className="text-[15.5px] leading-[1.7] text-body-soft">
-              Visitas: combine pelo WhatsApp
-              <br />
+              Visitas: combine pelo{" "}
+              <TrackedLink
+                event="whatsapp_click"
+                location="links_visitas"
+                href={waVisita}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-ink underline decoration-sage transition-colors hover:text-accent hover:decoration-accent"
+              >
+                WhatsApp
+              </TrackedLink>
             </p>
           </div>
         </div>

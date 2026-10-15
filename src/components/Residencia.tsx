@@ -11,8 +11,8 @@ export function Residencia() {
           <figure className="relative min-w-0 flex-1">
             <div className="relative aspect-3/4 w-full overflow-hidden rounded-sm">
               <Image
-                src="/fotos/sala-convivencia.webp"
-                alt="Sala de convivência com sofá amplo, onde os moradores assistem televisão e recebem visitas"
+                src="/fotos/sala-novela.webp"
+                alt="Moradora sentada no sofá da sala, assistindo televisão, com fotos de família na estante"
                 fill
                 sizes="(min-width: 1024px) 280px, 45vw"
                 className="object-cover saturate-[.94]"
@@ -22,8 +22,8 @@ export function Residencia() {
           <figure className="relative mt-11 min-w-0 flex-1">
             <div className="relative aspect-3/4 w-full overflow-hidden rounded-sm">
               <Image
-                src="/fotos/quarto-detalhe.webp"
-                alt="Criado-mudo de madeira ao lado da cama, com abajur e objetos pessoais do morador"
+                src="/fotos/cozinha-suco.webp"
+                alt="Moradora espremendo laranjas na pia da cozinha para fazer suco"
                 fill
                 sizes="(min-width: 1024px) 280px, 45vw"
                 className="object-cover saturate-[.94]"
