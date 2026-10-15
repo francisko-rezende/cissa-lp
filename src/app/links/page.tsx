@@ -157,11 +157,13 @@ export default function LinksPage() {
             </div>
             <div className="min-w-0">
               <h2 className="mb-1.5 font-display text-[19px] font-medium text-ink">
-                Sobre a Vovó Nice
+                Sobre nós
               </h2>
               <p className="text-[15px] leading-[1.6] text-body-soft">
                 Uma casa preparada para receber pessoas idosas com segurança,
-                conforto e acolhimento, com atenção ao dia a dia e ao bem-estar.
+                conforto e acolhimento. À frente do cuidado está Hercília,
+                cuidadora experiente e estudante de técnico de enfermagem, que
+                acompanha de perto o dia a dia de cada morador.
               </p>
             </div>
           </div>
